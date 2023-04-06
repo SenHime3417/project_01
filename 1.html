@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // 判断是否有a,忽略大小写
+        let myReg = new RegExp('a', 'i')
+        // 全局配备模式
+        let mYReg = new RegExp('a', 'g')
+
+        let str = '1a2s3d4f5q78e9'
+
+        let result = str.split(/[A-z]/)
+        console.log(result);
+
+    </script>
+</body>
+</html>
